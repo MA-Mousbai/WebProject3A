@@ -154,6 +154,9 @@ img {
     margin-right: 3rem
 }
 
+
+/* For iPad 9.7 */
+
 @media only screen and (min-width:768px) and (max-device-width:1024px) {
     .social-icons {
         display: inherit
@@ -161,40 +164,40 @@ img {
     #footer {
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr;
-        display: inline-block
+        display: inline-block;
     }
     .center {
-        flex-direction: row!important
+        flex-direction: row!important;
     }
     #first-center-image {
-        margin-right: 3rem
+        margin-right: 3rem;
     }
     .inside-image-wrapper>img {
-        padding: 0 5px
+        padding: 0 5px;
     }
     .inside2-image-wrapper>img {
-        padding: 0 5px
+        padding: 0 5px;
     }
     .news-image-wrapper>img {
-        padding: 0 5px
+        padding: 0 5px;
     }
 }
 
 @media (min-width:992px) {
     .social-icons {
-        display: inherit
+        display: inherit;
     }
     .nouveautés-img {
         flex-direction: row!important;
-        text-align: center
+        text-align: center;
     }
     .news {
-        flex-direction: row!important
+        flex-direction: row!important;
     }
     #footer {
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr;
-        display: inline-block
+        display: inline-block;
     }
 }
 
@@ -209,7 +212,7 @@ img {
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
-        text-align: center
+        text-align: center;
     }
 }
 
@@ -221,7 +224,7 @@ img {
     margin-right: 30px;
     font-size: 100px;
     text-align: center;
-    padding-top: 50px
+    padding-top: 50px;
 }
 
 .logoTesla2-name {
@@ -229,7 +232,7 @@ img {
     font-size: 1.5rem;
     line-height: .7;
     margin-top: 5px;
-    display: inline-block
+    display: inline-block;
 }
 
 .spacer2 {
@@ -237,7 +240,7 @@ img {
     margin-left: 30px;
     margin-top: 35px;
     height: 1px;
-    background-color: #666
+    background-color: rgb(95, 95, 95);
 }
 
 #footer {
@@ -246,17 +249,17 @@ img {
     margin-top: 10px;
     margin-left: 30px;
     margin-right: 30px;
-    border: #666;
+    border: rgb(95, 95, 95);
     border-width: 1px;
     line-height: 1.71;
     padding: 5rem 0;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr
+    grid-template-rows: 1fr;
 }
 
 #footer>div {
-    margin-top: 4rem
+    margin-top: 4rem;
 }
 
 .center {
@@ -264,56 +267,59 @@ img {
     flex-direction: column;
     margin-left: 30px;
     margin-right: 30px;
-    margin-top: 30px
+    margin-top: 30px;
 }
 
 .center p {
-    text-align: justify
+    text-align: justify;
 }
 
 #BlackModelS {
     height: auto;
-    max-width: 100%
+    max-width: 100%;
 }
 
 .center {
     display: flex;
     justify-content: center;
-    align-items: center
+    align-items: center;
 }
 
 .nouveautés-img {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-    margin: 0 25px
+    margin: 0 25px;
 }
+
+
+/* For big tablet */
 
 @media (max-width:1200px) {
     .center {
         display: flex;
         justify-content: center;
-        align-items: center
+        align-items: center;
     }
     .nouveautés-img {
-        text-align: center
+        text-align: center;
     }
     .news {
-        text-align: center
+        text-align: center;
     }
     .Nouveautés-title {
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
-        text-align: center
+        text-align: center;
     }
 }
 
 .center-image-wrapper {
     max-width: 400px;
     margin-top: 1rem;
-    margin-bottom: 1rem
+    margin-bottom: 1rem;
 }
 
 .text {
@@ -322,15 +328,15 @@ img {
     line-height: 1.166;
     color: #000;
     letter-spacing: 0;
-    margin-left: 25px
+    margin-left: 25px;
 }
 
 #text {
     font-size: 27px;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
 }
 
 .container-middle-bottom {
-    text-align: center
+    text-align: center;
 }
